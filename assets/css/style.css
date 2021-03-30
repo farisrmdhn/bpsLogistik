@@ -1,0 +1,260 @@
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+.active a{
+    color: #45bacc !important;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #45bacc !important;
+ 	transition: .5s ease;
+}
+
+#berandaimg{
+	margin: 150px auto 75px auto;
+}
+
+#beranda{
+	height: 768px;
+	background-position: center;
+	background-image: url('../images/truk_gelap.png');
+}
+
+#beranda h1{
+	color: #ffffff;
+	font-weight: bold;
+}
+
+#beranda h4{
+	color: #ffffff;
+	font-weight: medium;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+#berita h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#berita h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#isi_berita{
+	margin-top: 0;
+}
+
+#tentang{
+	background-color: #45bacc;
+}
+
+#tentang h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#tentang h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#bod h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#bod h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#layanan h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#layanan h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#fasilitas{
+	background-color: #45bacc;
+}
+
+#fasilitas h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#fasilitas h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#customer h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#customer h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#kontak h3{
+	color: #000000;
+	font-weight: bold;
+	margin: 10px 0 0 0 ;
+}
+
+#kontak h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#footer{
+	background-color: #45bacc;
+}
+
+#footer h6{
+	color: #000000;
+	font-weight: medium;
+	margin-bottom: 20px;
+}
+
+#kontak_btn{
+	background-color: #041044;
+}
+
+.backto_home_btn:hover{
+	opacity: 0.5;
+	cursor: pointer;
+	transition: .5s ease;
+}
+
+.tentang_judul_section{
+	color: #000000;
+	font-weight: bold;
+	font-size:30px;
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+
+.tentang_isi_section{
+	color: #000000;
+	font-weight: medium;
+	font-size:15px;
+	margin-top: 5px;
+}
+
+.nama_bod{
+	font-weight: 900;
+	color: #000000;
+}
+
+.jabatan_bod{
+	font-style: italic;
+}
+
+.overlay_container {
+  position: relative;
+  cursor: pointer;
+}
+
+.overlay {
+  /*position: absolute;*/
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.overlay_container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay_text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+	#berandaimg{
+		width: 150px;
+		margin: 15px auto 5px auto;
+	}
+
+	#beranda {
+		height: 288px;
+		background-image: url('../images/truk_gelap_mobile.png');
+	}
+
+	#beranda h1{
+		font-size: 20px;
+		color: #ffffff;
+		font-weight: bold;
+	}
+
+	#beranda h4{
+		font-size: 10px;
+		color: #ffffff;
+		font-weight: medium;
+	}
+
+	.tentang_isi_section{
+		text-align: center;
+	}
+
+	.tentang_isi_section li{
+		text-align: left;
+	}
+}
+
+
+@media only screen and (max-width: 1080px) {
+	.navbar-right{
+		height: 40vh;
+	}
+
+	.nav-item{
+		height: 5vh;
+	}
+
+	.nav-item a{
+		font-size: 30px;
+		vertical-align: center;
+	}
+
+	.navbar-brand img{
+		width: 150px;
+	}
+
+	.tentang_judul_section{
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
+}
